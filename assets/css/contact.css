@@ -1,0 +1,46 @@
+
+.map{
+	width:100%;
+}
+.map iframe{
+	margin-left: 35%;
+}
+#contact{
+	width: 20%;
+	margin: auto;
+	background: rgba(0, 0, 0, .3);
+	color: white;
+	padding: 20px;
+}
+
+#contact h1, 
+p{
+	text-align: center;
+}
+
+i{
+	padding: 20px;
+}
+/* 360 flip */
+@keyframes iconflip {
+	0% {
+		transform: rotateX(0deg);
+	}
+	100% {
+		transform: rotateX(360deg);
+		transform: rotateZ(360deg);
+	}
+}
+i:hover {
+	animation: iconflip 1.5s infinite;
+	color: #f7b267;
+}
+.nav_list a {
+    color: rgb(75,0,130);
+    text-decoration: none;
+
+}
+
+.nav_list a:hover {
+	color: white
+}
